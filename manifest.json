@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Categorize Page",
+  "version": "1.0",
+  "description": "Categorize the current page into specific bookmark folders.",
+  "permissions": ["bookmarks", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Categorize Page"
+  },
+  "commands": {
+    "open-categorize-popup": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Open Categorize Page Popup"
+    }
+  }
+}
